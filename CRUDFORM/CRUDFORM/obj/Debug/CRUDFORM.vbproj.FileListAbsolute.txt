@@ -11,3 +11,16 @@ C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\Debug
 C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\Debug\Oracle.ManagedDataAccess.dll
 C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.exe
 C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.pdb
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\bin\Debug\CRUDFORM.exe.config
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.exe
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.xml
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.pdb
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\bin\Debug\CRUDFORM.exe
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\bin\Debug\CRUDFORM.pdb
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\bin\Debug\CRUDFORM.xml
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.vbprojResolveAssemblyReference.cache
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.MainForm.resources
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.InformationForm.resources
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.Resources.resources
+C:\Users\LongD\Source\Repos\CRUDFORM\CRUDFORM\CRUDFORM\obj\Debug\CRUDFORM.vbproj.GenerateResource.Cache

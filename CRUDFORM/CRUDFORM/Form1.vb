@@ -53,45 +53,52 @@ Public Class MainForm
                            + "USERS.STATUS, USERS.CREATED_AT " _
                            + "FROM USERS JOIN DEPARTMENTS " _
                            + "ON USERS.DEPARTMENT_CODE = DEPARTMENTS.DEPARTMENT_CODE ORDER BY USERS.ID ASC"
-        Dim cmd As New OracleCommand(tbQuery, oracleConnection)
-        cmd.CommandType = CommandType.Text
 
-        oracleConnection.Open()
-        cmd = New OracleCommand(tbQuery, oracleConnection)
-        cmd.CommandType = CommandType.Text
+        Try
+            Dim cmd As New OracleCommand(tbQuery, oracleConnection)
+            cmd.CommandType = CommandType.Text
 
-        da = New OracleDataAdapter(cmd)
-        ds = New DataSet()
+            oracleConnection.Open()
+            cmd = New OracleCommand(tbQuery, oracleConnection)
+            cmd.CommandType = CommandType.Text
 
-        da.Fill(ds)
-        dgvResult.Rows.Clear()
-        intRowCount = 0
+            da = New OracleDataAdapter(cmd)
+            ds = New DataSet()
 
-        For Each dr As DataRow In ds.Tables(0).Rows
+            da.Fill(ds)
+            dgvResult.Rows.Clear()
+            intRowCount = 0
 
-            objRowData(DataGridViewArray.Checkbox) = False
+            For Each dr As DataRow In ds.Tables(0).Rows
 
-            objRowData(DataGridViewArray.Username) = dr("USERNAME").ToString()
+                objRowData(DataGridViewArray.Checkbox) = False
 
-            objRowData(DataGridViewArray.Email) = dr("EMAIL").ToString()
+                objRowData(DataGridViewArray.Username) = dr("USERNAME").ToString()
 
-            objRowData(DataGridViewArray.Department) = dr("DEPARTMENT_NAME").ToString()
+                objRowData(DataGridViewArray.Email) = dr("EMAIL").ToString()
 
-            objRowData(DataGridViewArray.Status) = dr("STATUS").ToString()
+                objRowData(DataGridViewArray.Department) = dr("DEPARTMENT_NAME").ToString()
 
-            objRowData(DataGridViewArray.CreatedAt) = Convert.ToDateTime(dr("CREATED_AT").ToString())
+                objRowData(DataGridViewArray.Status) = dr("STATUS").ToString()
 
-            objRowData(DataGridViewArray.ID) = dr("ID").ToString()
+                objRowData(DataGridViewArray.CreatedAt) = Convert.ToDateTime(dr("CREATED_AT").ToString())
 
-            objRowData(DataGridViewArray.Password) = dr("PASSWORD").ToString()
+                objRowData(DataGridViewArray.ID) = dr("ID").ToString()
 
-            dgvResult.Rows.Insert(intRowCount, objRowData)
+                objRowData(DataGridViewArray.Password) = dr("PASSWORD").ToString()
 
-            intRowCount += 1
+                dgvResult.Rows.Insert(intRowCount, objRowData)
 
-        Next
+                intRowCount += 1
 
-        oracleConnection.Close()
+            Next
+
+        Catch ex As Exception
+            MessageBox.Show("Error!", "Warning!")
+        Finally
+            oracleConnection.Close()
+        End Try
+
     End Sub
 
     Private Sub DatagridviewToExcel(ByVal DGV As DataGridView)
@@ -128,7 +135,7 @@ Public Class MainForm
             Shell(Chr(34) & EXL & Chr(34) & " " & Chr(34) & FLE & Chr(34), vbNormalFocus) ' OPEN XML WITH EXCEL
 
         Catch ex As Exception
-            MsgBox(ex.ToString)
+            MessageBox.Show("Error!", "Warning!")
         End Try
 
     End Sub
