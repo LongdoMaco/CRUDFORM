@@ -1,0 +1,10 @@
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\x86\Debug\CRUDFORM.exe.config
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\x86\Debug\CRUDFORM.exe
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\x86\Debug\CRUDFORM.pdb
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\bin\x86\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.MainForm.resources
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.InformationForm.resources
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.Resources.resources
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.vbproj.GenerateResource.Cache
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.exe
+C:\Users\LongD\documents\visual studio 2015\Projects\CRUDFORM\CRUDFORM\obj\x86\Debug\CRUDFORM.pdb
